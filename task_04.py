@@ -16,6 +16,4 @@ NEWS = NEWS.replace('{1}', '000042')
 
 EMAIL = NEWS
 
-
-
 print EMAIL

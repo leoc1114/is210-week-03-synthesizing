@@ -5,7 +5,7 @@
 
 NAPOLEON = "Able was I, ere I saw Elba."
 
-NAPOLEON [ ::-1 ]
+NAPOLEON = NAPOLEON[::-1]
 
 REVERSED = NAPOLEON.lower()
 
