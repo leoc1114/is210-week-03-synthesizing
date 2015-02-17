@@ -4,3 +4,13 @@
 
 
 import inquisition
+
+SPANISH = inquisition.SPANISH
+
+A = SPANISH.index('Spanish')
+
+B = len(SPANISH)
+
+FLEMISH = SPANISH[0:19] + 'Flemish ' + SPANISH[27:418]
+
+print FLEMISH
