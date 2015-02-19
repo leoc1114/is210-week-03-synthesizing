@@ -8,5 +8,3 @@ NAPOLEON = "Able was I, ere I saw Elba."
 NAPOLEON = NAPOLEON[::-1]
 
 REVERSED = NAPOLEON.lower()
-
-print REVERSED

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Provides variables for formatting."""
 
+
 NEWS = 'Hi {friend}! I have {0} news! I won the raffle with number {1:0>6d}!'
 
 
@@ -13,5 +14,3 @@ RNUM = 42
 
 
 EMAIL = NEWS.format(NTYPE, RNUM, friend=FNAME)
-
-print EMAIL
